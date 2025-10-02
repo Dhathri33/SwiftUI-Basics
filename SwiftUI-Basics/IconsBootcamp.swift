@@ -9,12 +9,13 @@ import SwiftUI
 
 struct IconsBootcamp: View {
     var body: some View {
-        Image(systemName: "paperplane.fill")
+        Image(systemName: "person.fill.badge.plus")
+            .renderingMode(.original)
             .resizable()
            // .font(.largeTitle)
             .font(.system(size: 200))
             .aspectRatio(contentMode: .fit)
-            .foregroundColor(.red)
+            //.foregroundColor(.red)
             .frame(width: 300, height: 300)
             //.clipped()
     }
