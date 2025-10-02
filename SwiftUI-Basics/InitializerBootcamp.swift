@@ -24,7 +24,6 @@ struct InitializerBootcamp: View {
             self.backgroundColor = .red
             self.title = "Apples"
         }
-        
     }
     
     enum Fruit {
