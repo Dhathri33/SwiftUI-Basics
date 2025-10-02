@@ -10,7 +10,6 @@ import SwiftUI
 struct ImageBootcamp: View {
     var body: some View {
         Image("tiger")
-            
             .resizable()
             //.aspectRatio(contentMode: .fit)
             //.scaledToFit()
@@ -19,10 +18,10 @@ struct ImageBootcamp: View {
             //.clipped()
             //.cornerRadius(100)
             .clipShape(
-                // Circle()
-              // RoundedRectangle(cornerRadius: 15)
-               // Ellipse()
-                Circle()
+            // Circle()
+            // RoundedRectangle(cornerRadius: 15)
+            // Ellipse()
+            Circle()
             )
     }
 }
